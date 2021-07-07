@@ -7,7 +7,6 @@ module.exports = {
 
   extends: [
     'plugin:vue/vue3-essential',
-    '@vue/airbnb',
   ],
 
   parserOptions: {
@@ -19,8 +18,11 @@ module.exports = {
     'no-debugger': 'off',
   },
 
-  'extends': [
+  extends: [
     'plugin:vue/essential',
-    '@vue/airbnb'
+  ],
+
+  'extends': [
+    'plugin:vue/recommended'
   ]
 };
